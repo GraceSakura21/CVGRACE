@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, Times New Roman, Serif;
+}
+.Profile{
+    
+    float: left;
+    color: darkgreen;
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My CV</title>
+        <link rel="tampilan" href="css/tampilan.css">
+    </head>
+    <style>
+        div.Profile{
+            float: left;
+    width: 100%;
+    
+    border: 5px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background-color: #C0EDFF;
+            margin-top: 15px;
+        }
+         div.detail_image{
+            background-color: #7ED2F6;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+        div.right_image{
+            text-align: left;
+            letter-spacing: 3px;
+            margin-left:180px;
+        }
+        .imge img{
+            border-radius: 100%;
+            background: #ffffff;
+            padding: 10px; 
+            width: 150px;
+            height: 150px;
+        }
+        h2{
+            text-decoration: underline;
+           }
+        h3{
+            text-indent: 0px;
+            line-height: 0.2;
+
+           }
+        div.detail_profile{
+            text-align: center;
+           
+        }
+        .Hobbies{
+            float: left;
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background-color: #C0EDFF;
+            margin-top: 15px;
+            
+        }
+        .Hobbies h3{
+            text-align: center;background-color: #7ED2F6;padding:  30px;margin: 0;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            }
+
+        .flex-container li{
+            flex: auto;
+            list-style: none;
+            padding: 40px;
+
+        }
+        .flex-container h4{
+            text-align: center;
+            
+        }
+        .flex-container p{
+            text-align: center;
+        }
+        .flex-container{
+            display: flex;
+  
+        }
+        .flex-container img{
+            height: 80%;
+            width: 200px;
+            border: 2px solid #C0EDFF;
+            border-radius: 8px;
+            padding: 0px;
+            
+        }
+        .skills_experience{
+            float: left;
+            width: 100%;
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background-color: #C0EDFF;
+            margin-top: 15px;
+}
+.skills{
+    float: left;
+    padding: 25px;
+}
+
+.skills h3{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 20px 20px;
+    margin: 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.skill{
+    float: left;
+}
+.skill img{
+    float: right;
+    width: 50px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.skill_desc{
+    float: right;
+    width: 70%;
+}
+
+.skill_desc h4{
+    float: right;
+    text-align: right;
+    margin: 10px;
+    width: 60%;
+}
+.skill_desc p{
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+.Experience{
+    float: left;
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background-color: #C0EDFF;
+            margin-top: 15px;
+            
+    
+}
+        .Experience h3{
+            float: center;
+            width: 100%;
+            text-align: center;
+            padding: 25px;
+            margin: 0px;
+    
+            border-bottom: 2px solid rgb(0, 0, 0);
+        }
+        .Experience h4{
+            padding-left: 25px;
+            float: left;
+            text-align: left;
+            width: 60%;
+            margin: 0px;
+        }
+        .Experience p {
+            float: left;
+            text-align: left;
+            margin: 10px;
+            width: 90%;
+            
+        }
+        .Education{
+            float: left;
+            width: 100%;
+            border: 5px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background-color: #C0EDFF;
+            margin-top: 15px;padding-bottom: 25px;
+        }
+        .Education h3{
+            text-align: center;
+            padding: 25px;
+            margin: 0%;
+            border-bottom: 2px solid rgb(0, 0, 0);
+        }
+        .inside{
+            
+            width: 60%;
+            margin: 20px auto;
+            
+        }
+        .edu_left{
+            float: right; 
+            width: 90%;
+            padding: 25px;
+            border: 2px;
+            border-style: none none none solid; 
+            text-align: left;
+        }
+        
+        .edu_left h3{
+            text-align: left;
+            padding: 0px;
+            border: none;
+        }
+     
+        .edu_right{
+            float: left;
+            width: 90%;
+            padding: 25px;
+            border: 2px;
+            border-style: solid solid none none;
+            text-align: right;
+        }
+        
+        .edu_right h3{
+            text-align: right;
+            padding: 0px; 
+            border: none;
+        }
+        .uml{
+            float: left;
+            text-align: left; 
+             width: 50%;
+             padding: 50px;
+            height: 0px;
+            
+           
+        }
+        .uml2{
+            float: right;
+            text-align: right; 
+            padding: 50px;
+             height: 0px;
+            
+            
+            
+        }
+        
+        .Footer::after{
+            float: left;
+            width: 100%; 
+            margin-top: 5px;
+            padding-bottom: 5px;
+            content: "";
+             clear: both;
+             display: table;
+        }
+        
+
+
+
+    </style>
+    <body> 
+        <div class="Profile">
+            <div class="Photo"> 
+                <div class ="detail_image">
+                    <div class="imge">
+                       <p><img src="Photocv/150x150.jpg" style="float:left"> </p> 
+                    </div>
+                    <div class="right_image">
+                        <h1>Grace Sukoso</h1>
+                        <h2>About Me</h2>
+                        <p>My age 24 year old. I open a small food business. I don't like being late for something that was planned. I am curious much about one word i never see it or i forgot about.</p>
+                    </div>
+                </div>
+                <div class="detail_profile"> 
+                
+                <h2>Personal data</h2>
+                <h3>Born</h3>
+                <p> 27 October 1998</p>
+                <h3>Address</h3>
+                <p> Sei merah 14</p>
+                <h3>Telphone Number</h3>
+                <p> 081222466861</p>
+                <h3>Gender</h3>
+                <p> Female</p>
+                <h3>Religion</h3>
+                <p> Catholic</p>
+                <h3>Nationality</h3>
+                <p> Indonesia</p>
+                <h3>Email</h3>
+                <p> gracesukoso211@gmail.com</p>
+                <h3>Status</h3>
+                <p> Not Married Yet </p>
+            </div>
+            
+            </div>
+            
+        </div>
+        
+        <div class="Hobbies">
+           <h3>Hobbies</h3>
+            <ul class="flex-container">
+                <li> 
+                    <img src="fotohobbie/IMG-20211206-WA0010.jpg">
+                    <h4>Cook</h4>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="fotohobbie/rading.jpeg">
+                    <h4>Reading</h4>
+                    <p></p>
+                </li>
+                <li>
+                    <img src="">
+                    <p></p></li>
+              </ul>
+              
+        </div>
+        
+        <div class="skills_experience">
+            
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>Promoting Media</h4>
+                    </div>
+                    <img src="fotohobbie/gambarskill/1.PNG">
+                </div>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>Cook</h4>     
+                    </div>
+                    <img src="fotohobbie/gambarskill/cook.PNG">
+                </div>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>Video Cutting</h4>    
+                    </div>
+                    <img src="fotohobbie/gambarskill/video cut.PNG">
+                </div>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>Drawing</h4>    
+                    </div>
+                    <img src="fotohobbie/gambarskill/draw.PNG">
+                </div>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>Unity</h4>    
+                    </div>
+                    <img src="fotohobbie/gambarskill/unity.PNG">
+                </div>
+                <div class="skill">
+                    <div class="skill_desc">
+                        <h4>HTML & CSS </h4>    
+                    </div>
+                    <img src="fotohobbie/gambarskill/html and cs.PNG">
+                </div>
+            </div>
+        </div>
+            <div class="Experience">
+                <h3>Work Experience</h3>
+                <h4>Researcher Game with face recognition</h4>
+                <h4>2019-2021</h4>
+                <p>Make a game that candetect faces. Where to combine face recognition service providers andgamesthat will be made. The game made is a horror game</p>
+                <h4>Restaurant</h4>
+                <h4>2021 & 2023 </h4>
+                <p>Opening a food business using the Wingstop concept where my area doesn't sell food like WIngstop. Opening Online and Offline businesses.</p>
+                <h4>Manager Hostel</h4>
+                <h4>2022 - 2023</h4>
+                <p>Manage a newly opened hotel with not much knowledge about what work needs to be done every day but over time learn from stay at a nearby hotel.</p>
+
+            </div>    
+        
+        <div class="Education">
+        <h3>Education</h3>
+            <div class="inside">
+                <div class="edu_left">
+                    <h3>2016-2022</h3>
+                    <h4>Universitas Bina Nusantara (BINUS)</h4>
+                    <p>S1- Game Application and Technology</p>
+                </div>
+                <div class="edu_right">
+                    <h3>2016-2022</h3>
+                    <h4>Universitas Bina Nusantara (BINUS)</h4>
+                    <p>S1- Game Application and Technology</p>
+                </div>
+            </div>
+        </div>
+        <div class="Footer">
+            <div class="uml">
+                <p><a href="mailto:gracesukoso211@gmail.com">Email Clik here!!</a></p>
+
+            </div>
+            <div class="uml2">
+                <p><a href="https://drive.google.com/drive/folders/1uynHLKo7P5sbQBUmqHLc6MyWrvfwIKi4?usp=share_link">Art2 : drive</a></p>
+
+            </div>
+            <div class="uml">
+                <p><a href="https://www.deviantart.com/sakurag21/gallery">Art1: Deviant ART</a></p>
+
+            </div>
+            <div class="uml2">
+                <p><a href="https://www.youtube.com/channel/UCvTzE7loCVL0IihasIEN70A">Youtube</a></p>
+
+            </div>
+        </div>
+        
+    </body>
+</html>
